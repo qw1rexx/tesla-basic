@@ -77,7 +77,7 @@ header a:hover {
 .solarroof,
 .accessories {
     font-family: "Rubik Roman", Arial;
-    background-image: url(/img/debil3.png);
+    background-image: url(../img/debil3.png);
     min-height: 100vh;
     text-align: center;
     background-size: cover;
@@ -184,32 +184,32 @@ a:hover.button_2 {
 }
 
 .modely {
-    background-image: url(/img/debil-y.png);
+    background-image: url(../img/debil-y.png);
 
 }
 
 .models {
-    background-image: url(/img/debil-s.png);
+    background-image: url(../img/debil-s.png);
 
 }
 
 .modelx {
-    background-image: url(/img/debil-x.png);
+    background-image: url(../img/debil-x.png);
 
 }
 
 .solarpanels {
-    background-image: url(/img/solar-panels.png);
+    background-image: url(../img/solar-panels.png);
 
 }
 
 .solarroof {
-    background-image: url(/img/solar-roof.png);
+    background-image: url(../img/solar-roof.png);
 
 }
 
 .accessories {
-    background-image: url(/img/accsesuaries.png);
+    background-image: url(../img/accsesuaries.png);
 
 }
 
