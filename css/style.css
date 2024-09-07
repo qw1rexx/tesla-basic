@@ -1,0 +1,232 @@
+.flex {
+    display: flex;
+
+}
+
+header {
+    margin: 30px 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+
+}
+
+.flex {
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.top_menu {
+    display: flex;
+    column-gap: 50px;
+
+}
+
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-weight: 500;
+    font-family: "Rubik Roman", Arial;
+    text-align: center;
+
+
+}
+
+header a:hover {
+    text-decoration: underline;
+
+}
+
+.flex_coll {
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.flex_coll div:last-child {
+    padding-bottom: 115px;
+
+}
+
+.model3,
+.modely,
+.models,
+.modelx,
+.solarpanels,
+.solarroof,
+.accessories {
+    font-family: "Rubik Roman", Arial;
+    background-image: url(/img/debil3.png);
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    padding-top: 125px;
+
+}
+
+.model3 a,
+.modely a,
+.models a,
+.modelx a,
+.solarpanels a,
+.solarroof a,
+.accessories a {
+    color: black;
+    padding-top: 42px;
+
+}
+
+.model3 a:hover,
+.modely a:hover,
+.models a:hover,
+.modelx a:hover,
+.solarpanels a:hover,
+.solarroof a:hover,
+.accessories a:hover {
+    color: #3e4145;
+}
+
+
+a.button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Rubik Roman", Arial;
+    text-align: center;
+    width: 248px;
+    padding: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #3e4145;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+
+}
+
+a.button:hover {
+    background-color: #e7e7e5;
+    color: black;
+
+}
+
+a.button_2 {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-family: "Rubik Roman", Arial;
+    display: inline-block;
+    text-align: center;
+    width: 248px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #e7e7e5;
+    color: black;
+    margin: 0 15px;
+    font-weight: bold;
+
+}
+
+a:hover.button_2 {
+    background-color: #3e4145;
+    color: #ffffff;
+    
+
+}
+
+.wrapper {
+    max-width: 1620px;
+    margin: auto;
+
+}
+
+.arrow {
+    display: block;
+    position: relative;
+
+}
+
+.arrow:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    transform: rotate(-135deg);
+
+}
+
+.modely {
+    background-image: url(/img/debil-y.png);
+
+}
+
+.models {
+    background-image: url(/img/debil-s.png);
+
+}
+
+.modelx {
+    background-image: url(/img/debil-x.png);
+
+}
+
+.solarpanels {
+    background-image: url(/img/solar-panels.png);
+
+}
+
+.solarroof {
+    background-image: url(/img/solar-roof.png);
+
+}
+
+.accessories {
+    background-image: url(/img/accsesuaries.png);
+
+}
+
+.wrap_footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-family: "Rubik Roman", Arial;
+    font-weight: bold;
+
+}
